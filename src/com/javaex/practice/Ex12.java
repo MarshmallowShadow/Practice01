@@ -10,6 +10,8 @@ public class Ex12 {
 		System.out.print("반지름을 입력하세요: ");
 		double radius = sc.nextDouble();
 		
+		sc.nextLine();
+		
 		area = 3.14 * Math.pow(radius, 2);
 		
 		System.out.println("원의 넓이는 " + area);
